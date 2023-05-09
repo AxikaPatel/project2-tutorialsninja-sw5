@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Login Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Login Test</h1>
+<p>
+  Test duration: 162.697s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.testsuite.DeskTopTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductAddedToShoppingCartSuccessFully
+      </td>
+  <td class="duration">
+    17.301s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Select Currency&nbsp; [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -&gt; xpath: //span[contains(text(),&apos;Currency&apos;)]]<br />
+                                mouseHover On DesktopsLink And Click&nbsp; [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -&gt; link text: Desktops]<br />
+                                select Menu&nbsp; By.xpath: //nav[@id=&apos;menu&apos;]//ul/li[contains(@class, &apos;open&apos;)]/div/child::*<br />
+                                select Sort By Option&nbsp; [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -&gt; id: input-sort]<br />
+                                get Product Text&nbsp; [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -&gt; xpath: //div[@id = &apos;content&apos;]//h1]<br />
+                                Click on add to cart button&nbsp; [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -&gt; xpath: //button[@id=&apos;button-cart&apos;]]<br />
+                                get Product Added Success Message&nbsp; [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -&gt; css selector: body:nth-child(2) div.container:nth-child(4) &gt; div.alert.alert-success.alert-dismissible]<br />
+                                click On Shopping Cart LinkI nto Message&nbsp; [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -&gt; xpath: //a[contains(text(),&apos;shopping cart&apos;)]]<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://tutorialsninja.com/demo/index.php?route=checkout/cart&quot;&gt;...&lt;/a&gt; is not clickable at point (491, 8). Other element would receive the click: &lt;div class=&quot;container&quot;&gt;...&lt;/div&gt;<br/>
+&nbsp; (Session info: chrome=112.0.5615.138)<br/>
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [37822972fc6ce4b4c9ffe50e2b783487, clickElement {id=58240a01-686f-4176-b3a1-0bcf69f6216b}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\axika\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54150}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54150/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Element: [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -&gt; xpath: //a[contains(text(),&apos;shopping cart&apos;)]]<br/>
+Session ID: 37822972fc6ce4b4c9ffe50e2b783487</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)<br />
+              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)<br />
+              sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)<br />
+              com.sun.proxy.$Proxy16.click(Unknown Source)<br />
+              com.tutorialsninja.utility.Utility.clickOnElement(Utility.java:88)<br />
+              com.tutorialsninja.pages.ProductPage.clickOnShoppingCartLinkIntoMessage(ProductPage.java:95)<br />
+              com.tutorialsninja.testsuite.DeskTopTest.verifyProductAddedToShoppingCartSuccessFully(DeskTopTest.java:63)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.testsuite.LaptopAndNoteBookTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductsPriceDisplayHighToLowSuccessfully
+      </td>
+  <td class="duration">
+    4.892s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Select Currency&nbsp; [[ChromeDriver: chrome on WINDOWS (06d8d73650c9560b689427717076d223)] -&gt; xpath: //span[contains(text(),&apos;Currency&apos;)]]<br />
+                                mouseHover On Laptop&nbsp; And Click&nbsp; [[ChromeDriver: chrome on WINDOWS (06d8d73650c9560b689427717076d223)] -&gt; link text: Laptops &amp; Notebooks]<br />
+                                select Menu&nbsp; By.xpath: //nav[@id=&apos;menu&apos;]//ul/li[contains(@class, &apos;open&apos;)]/div/child::*<br />
+                                Get Products Price List<br />
+                                Select Sort By Price (High &gt; Low)<br />
+                                Get Products Price List<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document<br/>
+&nbsp; (Session info: chrome=112.0.5615.138)<br/>
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference<br/>
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [06d8d73650c9560b689427717076d223, getElementText {id=ad9ebbc7-e941-415a-80a6-97f4064045f9}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\axika\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54261/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Element: [[ChromeDriver: chrome on WINDOWS (06d8d73650c9560b689427717076d223)] -&gt; xpath: //p[@class =&apos;price&apos;]]<br/>
+Session ID: 06d8d73650c9560b689427717076d223</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)<br />
+              org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)<br />
+              com.tutorialsninja.pages.LaptopAndNoteBookPage.getProductsPriceList(LaptopAndNoteBookPage.java:51)<br />
+              com.tutorialsninja.testsuite.LaptopAndNoteBookTest.verifyProductsPriceDisplayHighToLowSuccessfully(LaptopAndNoteBookTest.java:49)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyThatUserPlaceOrderSuccessfully
+      </td>
+  <td class="duration">
+    9.600s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Select Currency&nbsp; [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; xpath: //span[contains(text(),&apos;Currency&apos;)]]<br />
+                                mouseHover On Laptop&nbsp; And Click&nbsp; [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; link text: Laptops &amp; Notebooks]<br />
+                                select Menu&nbsp; By.xpath: //nav[@id=&apos;menu&apos;]//ul/li[contains(@class, &apos;open&apos;)]/div/child::*<br />
+                                Select Sort By Price (High &gt; Low)<br />
+                                Select Product By Name<br />
+                                get Product Text&nbsp; [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; xpath: //div[@id = &apos;content&apos;]//h1]<br />
+                                Click on add to cart button&nbsp; [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; xpath: //button[@id=&apos;button-cart&apos;]]<br />
+                                get Product Added Success Message&nbsp; [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; css selector: body:nth-child(2) div.container:nth-child(4) &gt; div.alert.alert-success.alert-dismissible]<br />
+                                click On Shopping Cart LinkI nto Message&nbsp; [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; xpath: //a[contains(text(),&apos;shopping cart&apos;)]]<br />
+                                get Shopping Cart Text&nbsp; [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; xpath: //div[@id=&apos;content&apos;]//h1]<br />
+                                get ProductName Text&nbsp; [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; xpath: //div[@class = &apos;table-responsive&apos;]/table/tbody/tr/td[2]/a]<br />
+                                Change Quantity [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; xpath: //input[contains(@name, &apos;quantity&apos;)]]<br />
+                                click On Qty Update Button [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; xpath: //button[contains(@data-original-title, &apos;Update&apos;)]]<br />
+                                get Success Modified Message [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; xpath: //div[@id=&apos;checkout-cart&apos;]/div[1]]<br />
+                                get Total [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -&gt; xpath: //div[@class = &apos;table-responsive&apos;]/table/tbody/tr/td[6]]<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: The following asserts failed:<br/>
+	Total not matched expected [£737.45] but found [£4,424.70]</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)<br />
+              org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)<br />
+              com.tutorialsninja.testsuite.LaptopAndNoteBookTest.verifyThatUserPlaceOrderSuccessfully(LaptopAndNoteBookTest.java:72)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.testsuite.AccountLoginPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserShouldLoginAndLogoutSuccessfully
+      </td>
+  <td class="duration">
+    4.538s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click On My QAccount Tab&nbsp; [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -&gt; xpath: //span[contains(text(),&apos;My Account&apos;)]]<br />
+                                Enter EmailId [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -&gt; id: input-email]<br />
+                                Enter Password [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -&gt; id: input-email]<br />
+                                Click on login Button [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -&gt; id: input-email]<br />
+                                click On My QAccount Tab&nbsp; [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -&gt; xpath: //span[contains(text(),&apos;My Account&apos;)]]<br />
+                                get Account Logout Text&nbsp; [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -&gt; xpath: //h1[contains(text(),&apos;Account Logout&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLoginPageSuccessfully
+      </td>
+  <td class="duration">
+    1.728s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click On My QAccount Tab&nbsp; [[ChromeDriver: chrome on WINDOWS (cb1b950599bb3ea0dd7fdcaba4dc7b12)] -&gt; xpath: //span[contains(text(),&apos;My Account&apos;)]]<br />
+                                Returning Customer Text [[ChromeDriver: chrome on WINDOWS (cb1b950599bb3ea0dd7fdcaba4dc7b12)] -&gt; xpath: //div[@id=&apos;content&apos;]/div/div[2]//h2]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.testsuite.DeskTopTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductArrangeInAlphabeticalOrder
+      </td>
+  <td class="duration">
+    6.131s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Select Currency&nbsp; [[ChromeDriver: chrome on WINDOWS (d0023c1b2be8cdad9a33cd4c47285b74)] -&gt; xpath: //span[contains(text(),&apos;Currency&apos;)]]<br />
+                                mouseHover On DesktopsLink And Click&nbsp; [[ChromeDriver: chrome on WINDOWS (d0023c1b2be8cdad9a33cd4c47285b74)] -&gt; link text: Desktops]<br />
+                                select Menu&nbsp; By.xpath: //nav[@id=&apos;menu&apos;]//ul/li[contains(@class, &apos;open&apos;)]/div/child::*<br />
+                                get Products Name List <br />
+                                select Sort By Option&nbsp; [[ChromeDriver: chrome on WINDOWS (d0023c1b2be8cdad9a33cd4c47285b74)] -&gt; id: input-sort]<br />
+                                get Products Name List <br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.testsuite.MyAccountTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserShouldLoginAndLogoutSuccessfully
+      </td>
+  <td class="duration">
+    28.351s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click On My QAccount Tab&nbsp; [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; xpath: //span[contains(text(),&apos;My Account&apos;)]]<br />
+                                Enter First name [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; id: input-firstname]<br />
+                                Enter last name [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; id: input-lastname]<br />
+                                Enter Email&nbsp; [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; id: input-email]<br />
+                                Enter telephone&nbsp; [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; id: input-telephone]<br />
+                                Enter password&nbsp; [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; id: input-password]<br />
+                                Enter Confirm password&nbsp; [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; id: input-password]<br />
+                                select Subscription&nbsp; By.xpath: //fieldset[3]//input<br />
+                                click On Privacy Policy CheckBox&nbsp; By.xpath: //fieldset[3]//input<br />
+                                click On Continue Button&nbsp; [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; xpath: //div[@class = &apos;buttons&apos;]//input[@value=&apos;Continue&apos;]]<br />
+                                get Your Account Has Been Created Text&nbsp; [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; xpath: //h1[contains(text(),&apos;Your Account Has Been Created!&apos;)]]<br />
+                                Click on continue button [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; xpath: //a[contains(text(),&apos;Continue&apos;)]]<br />
+                                click On My QAccount Tab&nbsp; [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; xpath: //span[contains(text(),&apos;My Account&apos;)]]<br />
+                                get Account Logout Text&nbsp; [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; xpath: //h1[contains(text(),&apos;Account Logout&apos;)]]<br />
+                                Click on continue button [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -&gt; xpath: //a[contains(text(),&apos;Continue&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLoginPageSuccessfully
+      </td>
+  <td class="duration">
+    22.974s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click On My QAccount Tab&nbsp; [[ChromeDriver: chrome on WINDOWS (b4dd70ae49f5636f764a20cbefba23b1)] -&gt; xpath: //span[contains(text(),&apos;My Account&apos;)]]<br />
+                                Get Register Account Text [[ChromeDriver: chrome on WINDOWS (b4dd70ae49f5636f764a20cbefba23b1)] -&gt; xpath: //h1[contains(text(),&apos;Register Account&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.testsuite.TopMenuTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToComponentsPageSuccessfully
+      </td>
+  <td class="duration">
+    3.191s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        mouseHover On Component&nbsp; And Click&nbsp; [[ChromeDriver: chrome on WINDOWS (979b9d18b8c788df877cc320736d4f3a)] -&gt; link text: Components]<br />
+                                select Menu&nbsp; By.xpath: //nav[@id=&apos;menu&apos;]//ul/li[contains(@class, &apos;open&apos;)]/div/child::*<br />
+                                Get component Text&nbsp; [[ChromeDriver: chrome on WINDOWS (979b9d18b8c788df877cc320736d4f3a)] -&gt; xpath: //h2[contains(text(),&apos;Components&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToDesktopsPageSuccessfully
+      </td>
+  <td class="duration">
+    2.748s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        mouseHover On DesktopsLink And Click&nbsp; [[ChromeDriver: chrome on WINDOWS (68a0f3d4f04ec398a7426872d11d5ab9)] -&gt; link text: Desktops]<br />
+                                select Menu&nbsp; By.xpath: //nav[@id=&apos;menu&apos;]//ul/li[contains(@class, &apos;open&apos;)]/div/child::*<br />
+                                get Desktops Text&nbsp; [[ChromeDriver: chrome on WINDOWS (68a0f3d4f04ec398a7426872d11d5ab9)] -&gt; xpath: //h2[contains(text(),&apos;Desktops&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully
+      </td>
+  <td class="duration">
+    2.484s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        mouseHover On Laptop&nbsp; And Click&nbsp; [[ChromeDriver: chrome on WINDOWS (4bc15c068f2099756e36bce2209ba8f6)] -&gt; link text: Laptops &amp; Notebooks]<br />
+                                select Menu&nbsp; By.xpath: //nav[@id=&apos;menu&apos;]//ul/li[contains(@class, &apos;open&apos;)]/div/child::*<br />
+                                 Verify the text ‘Laptops &amp; Notebooks’<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

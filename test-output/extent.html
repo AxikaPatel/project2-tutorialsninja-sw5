@@ -1,0 +1,1214 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">TutorialsNinja</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 9, 2023 10:44:10 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyProductAddedToShoppingCartSuccessFully</p>
+            <p class="text-sm">
+              <span>22:44:17</span> / <span>00:00:17:479</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyProductAddedToShoppingCartSuccessFully</h5>
+<span class='badge badge-success'>05.09.2023 22:44:17</span>
+<span class='badge badge-danger'>05.09.2023 22:44:34</span>
+<span class='badge badge-default'>00:00:17:479</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\axika\IdeaProjects\project2-tutorialsninja-sw5/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_May_09_22_44_34_BST_2023.jpg' src="C:\Users\axika\IdeaProjects\project2-tutorialsninja-sw5/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_May_09_22_44_34_BST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:17</td>
+        <td>
+          Select Currency [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -> xpath: //span[contains(text(),'Currency')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:18</td>
+        <td>
+          mouseHover On DesktopsLink And Click [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -> link text: Desktops]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:19</td>
+        <td>
+          select Menu By.xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:21</td>
+        <td>
+          select Sort By Option [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -> id: input-sort]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:24</td>
+        <td>
+          get Product Text [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -> xpath: //div[@id = 'content']//h1]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:32</td>
+        <td>
+          Click on add to cart button [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -> xpath: //button[@id='button-cart']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:33</td>
+        <td>
+          get Product Added Success Message [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -> css selector: body:nth-child(2) div.container:nth-child(4) > div.alert.alert-success.alert-dismissible]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:33</td>
+        <td>
+          click On Shopping Cart LinkI nto Message [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -> xpath: //a[contains(text(),'shopping cart')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>22:44:34</td>
+        <td>
+          TEST FAILED IS verifyProductAddedToShoppingCartSuccessFully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>22:44:34</td>
+        <td>
+          TEST FAILED IS org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://tutorialsninja.com/demo/index.php?route=checkout/cart">...</a> is not clickable at point (491, 8). Other element would receive the click: <div class="container">...</div>
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [37822972fc6ce4b4c9ffe50e2b783487, clickElement {id=58240a01-686f-4176-b3a1-0bcf69f6216b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\axika\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54150}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54150/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (37822972fc6ce4b4c9ffe50e2b783487)] -> xpath: //a[contains(text(),'shopping cart')]]
+Session ID: 37822972fc6ce4b4c9ffe50e2b783487
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyProductArrangeInAlphabeticalOrder</p>
+            <p class="text-sm">
+              <span>22:44:39</span> / <span>00:00:06:131</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyProductArrangeInAlphabeticalOrder</h5>
+<span class='badge badge-success'>05.09.2023 22:44:39</span>
+<span class='badge badge-danger'>05.09.2023 22:44:45</span>
+<span class='badge badge-default'>00:00:06:131</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:39</td>
+        <td>
+          Select Currency [[ChromeDriver: chrome on WINDOWS (d0023c1b2be8cdad9a33cd4c47285b74)] -> xpath: //span[contains(text(),'Currency')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:41</td>
+        <td>
+          mouseHover On DesktopsLink And Click [[ChromeDriver: chrome on WINDOWS (d0023c1b2be8cdad9a33cd4c47285b74)] -> link text: Desktops]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:41</td>
+        <td>
+          select Menu By.xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:44</td>
+        <td>
+          get Products Name List 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:44</td>
+        <td>
+          select Sort By Option [[ChromeDriver: chrome on WINDOWS (d0023c1b2be8cdad9a33cd4c47285b74)] -> id: input-sort]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:45</td>
+        <td>
+          get Products Name List 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:45</td>
+        <td>
+          TEST CASE PASSED IS verifyProductArrangeInAlphabeticalOrder
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyThatUserShouldLoginAndLogoutSuccessfully</p>
+            <p class="text-sm">
+              <span>22:44:51</span> / <span>00:00:04:538</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyThatUserShouldLoginAndLogoutSuccessfully</h5>
+<span class='badge badge-success'>05.09.2023 22:44:51</span>
+<span class='badge badge-danger'>05.09.2023 22:44:55</span>
+<span class='badge badge-default'>00:00:04:538</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:51</td>
+        <td>
+          click On My QAccount Tab [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -> xpath: //span[contains(text(),'My Account')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:53</td>
+        <td>
+          Enter EmailId [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -> id: input-email]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:53</td>
+        <td>
+          Enter Password [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -> id: input-email]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:53</td>
+        <td>
+          Click on login Button [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -> id: input-email]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:54</td>
+        <td>
+          click On My QAccount Tab [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -> xpath: //span[contains(text(),'My Account')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:55</td>
+        <td>
+          get Account Logout Text [[ChromeDriver: chrome on WINDOWS (77c8bd3226874e8b6952290e5b44e105)] -> xpath: //h1[contains(text(),'Account Logout')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:44:55</td>
+        <td>
+          TEST CASE PASSED IS verifyThatUserShouldLoginAndLogoutSuccessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserShouldNavigateToLoginPageSuccessfully</p>
+            <p class="text-sm">
+              <span>22:45:00</span> / <span>00:00:01:728</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserShouldNavigateToLoginPageSuccessfully</h5>
+<span class='badge badge-success'>05.09.2023 22:45:00</span>
+<span class='badge badge-danger'>05.09.2023 22:45:02</span>
+<span class='badge badge-default'>00:00:01:728</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:00</td>
+        <td>
+          click On My QAccount Tab [[ChromeDriver: chrome on WINDOWS (cb1b950599bb3ea0dd7fdcaba4dc7b12)] -> xpath: //span[contains(text(),'My Account')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:02</td>
+        <td>
+          Returning Customer Text [[ChromeDriver: chrome on WINDOWS (cb1b950599bb3ea0dd7fdcaba4dc7b12)] -> xpath: //div[@id='content']/div/div[2]//h2]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:02</td>
+        <td>
+          TEST CASE PASSED IS verifyUserShouldNavigateToLoginPageSuccessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyProductsPriceDisplayHighToLowSuccessfully</p>
+            <p class="text-sm">
+              <span>22:45:07</span> / <span>00:00:05:180</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyProductsPriceDisplayHighToLowSuccessfully</h5>
+<span class='badge badge-success'>05.09.2023 22:45:07</span>
+<span class='badge badge-danger'>05.09.2023 22:45:13</span>
+<span class='badge badge-default'>00:00:05:180</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\axika\IdeaProjects\project2-tutorialsninja-sw5/test-output/html/verifyProductsPriceDisplayHighToLowSuccessfullyTue_May_09_22_45_13_BST_2023.jpg' src="C:\Users\axika\IdeaProjects\project2-tutorialsninja-sw5/test-output/html/verifyProductsPriceDisplayHighToLowSuccessfullyTue_May_09_22_45_13_BST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:07</td>
+        <td>
+          Select Currency [[ChromeDriver: chrome on WINDOWS (06d8d73650c9560b689427717076d223)] -> xpath: //span[contains(text(),'Currency')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:09</td>
+        <td>
+          mouseHover On Laptop And Click [[ChromeDriver: chrome on WINDOWS (06d8d73650c9560b689427717076d223)] -> link text: Laptops & Notebooks]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:09</td>
+        <td>
+          select Menu By.xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:12</td>
+        <td>
+          Get Products Price List
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:12</td>
+        <td>
+          Select Sort By Price (High > Low)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:12</td>
+        <td>
+          Get Products Price List
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>22:45:12</td>
+        <td>
+          TEST FAILED IS verifyProductsPriceDisplayHighToLowSuccessfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>22:45:12</td>
+        <td>
+          TEST FAILED IS org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06d8d73650c9560b689427717076d223, getElementText {id=ad9ebbc7-e941-415a-80a6-97f4064045f9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\axika\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54261/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (06d8d73650c9560b689427717076d223)] -> xpath: //p[@class ='price']]
+Session ID: 06d8d73650c9560b689427717076d223
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyThatUserPlaceOrderSuccessfully</p>
+            <p class="text-sm">
+              <span>22:45:17</span> / <span>00:00:09:800</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyThatUserPlaceOrderSuccessfully</h5>
+<span class='badge badge-success'>05.09.2023 22:45:17</span>
+<span class='badge badge-danger'>05.09.2023 22:45:27</span>
+<span class='badge badge-default'>00:00:09:800</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\axika\IdeaProjects\project2-tutorialsninja-sw5/test-output/html/verifyThatUserPlaceOrderSuccessfullyTue_May_09_22_45_27_BST_2023.jpg' src="C:\Users\axika\IdeaProjects\project2-tutorialsninja-sw5/test-output/html/verifyThatUserPlaceOrderSuccessfullyTue_May_09_22_45_27_BST_2023.jpg">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:17</td>
+        <td>
+          Select Currency [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> xpath: //span[contains(text(),'Currency')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:20</td>
+        <td>
+          mouseHover On Laptop And Click [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> link text: Laptops & Notebooks]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:20</td>
+        <td>
+          select Menu By.xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:23</td>
+        <td>
+          Select Sort By Price (High > Low)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:23</td>
+        <td>
+          Select Product By Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:25</td>
+        <td>
+          get Product Text [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> xpath: //div[@id = 'content']//h1]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:25</td>
+        <td>
+          Click on add to cart button [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> xpath: //button[@id='button-cart']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:26</td>
+        <td>
+          get Product Added Success Message [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> css selector: body:nth-child(2) div.container:nth-child(4) > div.alert.alert-success.alert-dismissible]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:26</td>
+        <td>
+          click On Shopping Cart LinkI nto Message [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> xpath: //a[contains(text(),'shopping cart')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:26</td>
+        <td>
+          get Shopping Cart Text [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> xpath: //div[@id='content']//h1]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:26</td>
+        <td>
+          get ProductName Text  [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> xpath: //div[@class = 'table-responsive']/table/tbody/tr/td[2]/a]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:26</td>
+        <td>
+          Change Quantity [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> xpath: //input[contains(@name, 'quantity')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:26</td>
+        <td>
+          click On Qty Update Button [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> xpath: //button[contains(@data-original-title, 'Update')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:27</td>
+        <td>
+          get Success Modified Message  [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> xpath: //div[@id='checkout-cart']/div[1]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:27</td>
+        <td>
+          get Total [[ChromeDriver: chrome on WINDOWS (8ac2fc7ddc29f22227b74f10325948ae)] -> xpath: //div[@class = 'table-responsive']/table/tbody/tr/td[6]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>22:45:27</td>
+        <td>
+          TEST FAILED IS verifyThatUserPlaceOrderSuccessfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>22:45:27</td>
+        <td>
+          TEST FAILED IS java.lang.AssertionError: The following asserts failed:
+	Total not matched expected [£737.45] but found [£4,424.70]
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyThatUserShouldLoginAndLogoutSuccessfully</p>
+            <p class="text-sm">
+              <span>22:45:33</span> / <span>00:00:28:352</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyThatUserShouldLoginAndLogoutSuccessfully</h5>
+<span class='badge badge-success'>05.09.2023 22:45:33</span>
+<span class='badge badge-danger'>05.09.2023 22:46:01</span>
+<span class='badge badge-default'>00:00:28:352</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:33</td>
+        <td>
+          click On My QAccount Tab [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> xpath: //span[contains(text(),'My Account')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:55</td>
+        <td>
+          Enter First name  [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> id: input-firstname]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:55</td>
+        <td>
+          Enter last name  [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> id: input-lastname]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:55</td>
+        <td>
+          Enter Email  [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> id: input-email]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:55</td>
+        <td>
+          Enter telephone  [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> id: input-telephone]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:55</td>
+        <td>
+          Enter password  [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> id: input-password]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:55</td>
+        <td>
+          Enter Confirm password  [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> id: input-password]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:55</td>
+        <td>
+          select Subscription  By.xpath: //fieldset[3]//input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:55</td>
+        <td>
+          click On Privacy Policy CheckBox   By.xpath: //fieldset[3]//input
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:55</td>
+        <td>
+          click On Continue Button    [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> xpath: //div[@class = 'buttons']//input[@value='Continue']]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:56</td>
+        <td>
+          get Your Account Has Been Created Text [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> xpath: //h1[contains(text(),'Your Account Has Been Created!')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:56</td>
+        <td>
+          Click on continue button [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> xpath: //a[contains(text(),'Continue')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:58</td>
+        <td>
+          click On My QAccount Tab [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> xpath: //span[contains(text(),'My Account')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:59</td>
+        <td>
+          get Account Logout Text [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> xpath: //h1[contains(text(),'Account Logout')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:45:59</td>
+        <td>
+          Click on continue button [[ChromeDriver: chrome on WINDOWS (5a71888a4297a7e65da9b21a9bd044de)] -> xpath: //a[contains(text(),'Continue')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:01</td>
+        <td>
+          TEST CASE PASSED IS verifyThatUserShouldLoginAndLogoutSuccessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserShouldNavigateToLoginPageSuccessfully</p>
+            <p class="text-sm">
+              <span>22:46:07</span> / <span>00:00:22:973</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserShouldNavigateToLoginPageSuccessfully</h5>
+<span class='badge badge-success'>05.09.2023 22:46:07</span>
+<span class='badge badge-danger'>05.09.2023 22:46:30</span>
+<span class='badge badge-default'>00:00:22:973</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:07</td>
+        <td>
+          click On My QAccount Tab [[ChromeDriver: chrome on WINDOWS (b4dd70ae49f5636f764a20cbefba23b1)] -> xpath: //span[contains(text(),'My Account')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:30</td>
+        <td>
+          Get Register Account Text [[ChromeDriver: chrome on WINDOWS (b4dd70ae49f5636f764a20cbefba23b1)] -> xpath: //h1[contains(text(),'Register Account')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:30</td>
+        <td>
+          TEST CASE PASSED IS verifyUserShouldNavigateToLoginPageSuccessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserShouldNavigateToComponentsPageSuccessfully</p>
+            <p class="text-sm">
+              <span>22:46:35</span> / <span>00:00:03:193</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserShouldNavigateToComponentsPageSuccessfully</h5>
+<span class='badge badge-success'>05.09.2023 22:46:35</span>
+<span class='badge badge-danger'>05.09.2023 22:46:38</span>
+<span class='badge badge-default'>00:00:03:193</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:35</td>
+        <td>
+          mouseHover On Component And Click [[ChromeDriver: chrome on WINDOWS (979b9d18b8c788df877cc320736d4f3a)] -> link text: Components]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:36</td>
+        <td>
+          select Menu By.xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:38</td>
+        <td>
+          Get component Text [[ChromeDriver: chrome on WINDOWS (979b9d18b8c788df877cc320736d4f3a)] -> xpath: //h2[contains(text(),'Components')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:38</td>
+        <td>
+          TEST CASE PASSED IS verifyUserShouldNavigateToComponentsPageSuccessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserShouldNavigateToDesktopsPageSuccessfully</p>
+            <p class="text-sm">
+              <span>22:46:43</span> / <span>00:00:02:748</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserShouldNavigateToDesktopsPageSuccessfully</h5>
+<span class='badge badge-success'>05.09.2023 22:46:43</span>
+<span class='badge badge-danger'>05.09.2023 22:46:46</span>
+<span class='badge badge-default'>00:00:02:748</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:43</td>
+        <td>
+          mouseHover On DesktopsLink And Click [[ChromeDriver: chrome on WINDOWS (68a0f3d4f04ec398a7426872d11d5ab9)] -> link text: Desktops]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:44</td>
+        <td>
+          select Menu By.xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:46</td>
+        <td>
+          get Desktops Text [[ChromeDriver: chrome on WINDOWS (68a0f3d4f04ec398a7426872d11d5ab9)] -> xpath: //h2[contains(text(),'Desktops')]]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:46</td>
+        <td>
+          TEST CASE PASSED IS verifyUserShouldNavigateToDesktopsPageSuccessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully</p>
+            <p class="text-sm">
+              <span>22:46:51</span> / <span>00:00:02:484</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully</h5>
+<span class='badge badge-success'>05.09.2023 22:46:51</span>
+<span class='badge badge-danger'>05.09.2023 22:46:53</span>
+<span class='badge badge-default'>00:00:02:484</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:51</td>
+        <td>
+          mouseHover On Laptop And Click [[ChromeDriver: chrome on WINDOWS (4bc15c068f2099756e36bce2209ba8f6)] -> link text: Laptops & Notebooks]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:51</td>
+        <td>
+          select Menu By.xpath: //nav[@id='menu']//ul/li[contains(@class, 'open')]/div/child::*
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:53</td>
+        <td>
+           Verify the text ‘Laptops & Notebooks’
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:46:53</td>
+        <td>
+          TEST CASE PASSED IS verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 9, 2023 10:44:10 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 9, 2023 10:46:54 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>8</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>3</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='72%'>
+<b>8</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='27%'><b>3</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='92%'><b>77</b> events passed</small></div>
+<div>
+<small data-tooltip='7%'><b>6</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"verifyProductAddedToShoppingCartSuccessFully":17.479,"verifyProductArrangeInAlphabeticalOrder":6.131,"verifyThatUserShouldLoginAndLogoutSuccessfully":4.538,"verifyUserShouldNavigateToLoginPageSuccessfully":1.728,"verifyProductsPriceDisplayHighToLowSuccessfully":5.18,"verifyThatUserPlaceOrderSuccessfully":9.8,"verifyThatUserShouldLoginAndLogoutSuccessfully":28.352,"verifyUserShouldNavigateToLoginPageSuccessfully":22.973,"verifyUserShouldNavigateToComponentsPageSuccessfully":3.193,"verifyUserShouldNavigateToDesktopsPageSuccessfully":2.748,"verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully":2.484
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>User Name</td>
+<td>axika</td>
+</tr>
+<tr>
+<td>Time Zone</td>
+<td>Europe/London</td>
+</tr>
+<tr>
+<td>Machine</td>
+<td>Windows 1064 Bit</td>
+</tr>
+<tr>
+<td>Selenium</td>
+<td>3.141.59</td>
+</tr>
+<tr>
+<td>Maven</td>
+<td>3.5.9</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>1.8.0_151</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 8,
+failParent: 3,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 77,
+failEvents: 6,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
